@@ -1,0 +1,49 @@
+## Interface: 120100
+## Title: Avid Angler
+## Notes: A ground-up fishing addon — casting automation, catch tracking, and achievement scoring.
+## Author: Earthenmist
+## Version: 1.0.1-Release
+## IconTexture: Interface\AddOns\AvidAngler\Media\AvidAngler-logo.png
+## Category: Professions
+## X-Curse-Project-ID: 1681877
+## X-Wago-ID: 96ELBANg
+## AddonCompartmentFunc: AvidAngler_AddonCompartment_OnClick
+## AddonCompartmentFuncOnEnter: AvidAngler_AddonCompartment_OnEnter
+## AddonCompartmentFuncOnLeave: AvidAngler_AddonCompartment_OnLeave
+## SavedVariables: AvidAnglerDB
+
+Locales\enUS.lua
+Locales\deDE.lua
+Locales\frFR.lua
+Locales\esES.lua
+Locales\esMX.lua
+Locales\itIT.lua
+Locales\ptBR.lua
+Locales\ruRU.lua
+Locales\koKR.lua
+Locales\zhTW.lua
+Locales\zhCN.lua
+
+Data\FishCatalog.lua
+Data\PoolCatalog.lua
+Data\MapCatalog.lua
+Data\LureCatalog.lua
+Data\TrainerCatalog.lua
+Data\CollectibleCatalog.lua
+Data\MidnightGuideCatalog.lua
+Data\ExpansionGuideCatalog.lua
+
+Core\Core.lua
+Core\Safe.lua
+
+UI\Theme.lua
+UI\Screens\ExpansionGuide.lua
+UI\Screens\Settings.lua
+UI\Screens\SetupWizard.lua
+
+Modules\Casting\Casting.lua
+Modules\Tracking\Tracking.lua
+Modules\Scoring\Scoring.lua
+
+UI\MainWindow.lua
+UI\Launcher.lua
