@@ -1,0 +1,65 @@
+## Interface: 120100, 120105
+## Title: Avid Angler
+## Notes: Fishing automation, lure and ward upkeep, catch tracking, scoring, and localized achievement guides.
+## Author: Earthenmist
+## Version: 1.0.9-Release
+## IconTexture: Interface\AddOns\AvidAngler\Media\AvidAngler-logo.png
+## Category: Professions
+## X-Curse-Project-ID: 1681877
+## X-Wago-ID: 96ELBANg
+## AddonCompartmentFunc: AvidAngler_AddonCompartment_OnClick
+## AddonCompartmentFuncOnEnter: AvidAngler_AddonCompartment_OnEnter
+## AddonCompartmentFuncOnLeave: AvidAngler_AddonCompartment_OnLeave
+## SavedVariables: AvidAnglerDB
+
+Libs\LibStub\LibStub.lua
+Libs\CallbackHandler-1.0\CallbackHandler-1.0.lua
+Libs\LibDataBroker-1.1\LibDataBroker-1.1.lua
+Libs\LibDBIcon-1.0\LibDBIcon-1.0.lua
+
+Locales\enUS.lua
+Locales\deDE.lua
+Locales\frFR.lua
+Locales\esES.lua
+Locales\esMX.lua
+Locales\itIT.lua
+Locales\ptBR.lua
+Locales\ruRU.lua
+Locales\koKR.lua
+Locales\zhTW.lua
+Locales\zhCN.lua
+
+Data\FishCatalog.lua
+Data\PoolCatalog.lua
+Data\MapCatalog.lua
+Data\LureCatalog.lua
+Data\TrainerCatalog.lua
+Data\CollectibleCatalog.lua
+Data\MidnightGuideCatalog.lua
+Data\ExpansionGuideCatalog.lua
+Data\AchievementCatalog.lua
+Data\GuideReferences.lua
+
+Core\Core.lua
+Core\Safe.lua
+Core\Waypoints.lua
+Core\Achievements.lua
+Core\GuideText.lua
+
+UI\Theme.lua
+UI\KeyBindings.lua
+UI\Screens\Achievements.lua
+UI\Screens\ExpansionGuide.lua
+UI\Screens\Settings.lua
+UI\Screens\SetupWizard.lua
+
+Modules\Casting\Casting.lua
+Modules\Casting\SupplyAlert.lua
+Modules\Tracking\Tracking.lua
+Modules\Tracking\SessionValue.lua
+Modules\Tracking\FishingStatus.lua
+Modules\Tracking\VenomAlert.lua
+Modules\Scoring\Scoring.lua
+
+UI\MainWindow.lua
+UI\Launcher.lua
